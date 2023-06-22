@@ -36,17 +36,19 @@ qa_model = AutoModelForQuestionAnswering.from_pretrained("distilbert-base-cased-
 qa_chatbot = pipeline(task="question-answering", model=qa_model, tokenizer=qa_tokenizer)
 
 # create context - the information containing the answers
-context = """This video game has the following objects in it: Player Bear, Wall, Tree, Key, Lock Polar Bear, and Robot.
+context = """This video game has the following objects in it: Player Bear, Wall, Tree, Key, Lock Polar Bear, Robot, Fox and Moose.
              The Player Bear is a character controlled by you, the user. You can use the arrow keys to make the Player Bear move around,
              and the RETURN or ENTER keys to talk with other chatbots.
              The wall is an impassible obstacle. You cannot go over it. You must go around it.
              The tree and the lock are interactive objects. The key is located at the top of the tree. You can climb the tree to get the key.
              The key appears in your inventory. Once you have the key, you can use it to open or unlock the lock.
              
-             This game contains two NPCs: the Polar Bear and the Robot.
+             This game contains three NPCs: the Polar Bear and the Robot.
              Each NPC is a chatbot that uses a different NLP model to perform a language task.
              The Polar Bear is an NPC that uses the facebook/blenderbot-400M-distill model to perform the task of conversational response modelling.
              The Robot is an NPC that uses the distilbert-base-cased-distilled-squad model to perform the task of question-answering.
+             The Fox is an NPC that uses the distilroberta-base model to perform the task of fill-mask (filling in the blanks of a sentence).
+             The Moose is an NPC that uses the gpt2 model to perform the task of text generation, given the prompt "Once upon a time,".
                      
              Definitions: "NPC" stands for "non-player character". "NLP" stands for "natural language processing".
              """
