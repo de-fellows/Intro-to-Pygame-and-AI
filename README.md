@@ -1,5 +1,5 @@
 # Intro-to-Pygame-and-AI
-Code repository for "Intro to Pygame" and "Pygame with AI" blog posts.
+**Code repository for "Intro to Pygame" and "Pygame with AI" blog posts.**
 
 Christina Kampel<br>
 Digital Engineering Fellowship 2023<br>
