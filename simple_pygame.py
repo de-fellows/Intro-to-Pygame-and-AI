@@ -1,8 +1,8 @@
 # A simple video game using pygame!
 # Author: Christina Kampel
 
-# See the companion article Intro to Pygame: LINK HERE
-# TODO: Put good link above ^^^ (when notebook is in final repo)
+# See the companion article "Intro to Pygame": https://de-fellows.github.io/RexCoding/python/pygame/2023/06/21/Intro-to-Pygame.html
+
 # emoji icons from: https://emojipedia.org/apple/
 
 # -------------------------------------BASICS NEEDED TO RUN THE GAME--------------------------------------------- #
