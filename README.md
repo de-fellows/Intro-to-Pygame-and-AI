@@ -7,8 +7,8 @@ University of Calgary
 
 ## Read the Blog Posts
 
-- *Intro to Pygame: Pygame basics for your first video game!*: https://de-fellows.github.io/RexCoding/python/pygame/2023/06/21/Intro-to-Pygame.html
-- *Pygame with AI: Using language models in a pygame-based video game!*: https://de-fellows.github.io/RexCoding/python/pygame/huggingface/transformers/pipelines/natural%20language%20processing/nlp/machine%20learning/ml/artificial%20intelligence/ai/conversational%20models/question-answering%20models/fill-mask/text-generation/2023/06/21/Pygame-with-AI.html
+- [Intro to Pygame: Pygame basics for your first video game!](https://de-fellows.github.io/RexCoding/python/pygame/2023/06/21/Intro-to-Pygame.html)
+- [Pygame with AI: Using language models in a pygame-based video game!](https://de-fellows.github.io/RexCoding/python/pygame/huggingface/transformers/pipelines/natural%20language%20processing/nlp/machine%20learning/ml/artificial%20intelligence/ai/conversational%20models/question-answering%20models/fill-mask/text-generation/2023/06/21/Pygame-with-AI.html)
 
 
 ## Check out the Code
