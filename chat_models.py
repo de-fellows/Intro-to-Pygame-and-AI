@@ -70,23 +70,3 @@ tg_model = AutoModelForCausalLM.from_pretrained("gpt2")
 
 # create chatbot
 tg_chatbot = pipeline(task="text-generation", model=tg_model, tokenizer=tg_tokenizer, do_sample=True)
-
-# -------------------------- FUNCTIONS ------------------------------------------------ #
-
-# conversation-trimming function
-def trim_convo(conversation):
-    """Trim the earliest user and bot lines from a Conversation.
-
-    Parameters:
-    - conversation (transformers.pipelines.conversational.Conversation object): conversation to trim
-
-    Returns:
-    - Trimmed conversation (transformers.pipelines.conversational.Conversation object)
-    """
-    try:
-        conversation.past_user_inputs.pop(0)
-        conversation.generated_responses.pop(0)
-        return conversation
-    except:
-        warning = f"Conversation is too short to be trimmed."
-        print(warning)
