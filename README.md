@@ -14,9 +14,17 @@ University of Calgary
 
 See what the code does, without the need for installing libraries.
 
-- [simple_pygame.py playthrough](simple_pygame_playthrough.mp4)
-- [ai_game.py playthrough](ai_game_playthrough.mp4)
+### simple_pygame.py
 
+<video width="700" controls>
+    <source src="simple_pygame_playthrough.mp4" type="video/mp4">
+</video>
+
+### ai_game.py
+
+<video width="700" controls>
+    <source src="ai_game_playthrough.mp4" type="video/mp4">
+</video>
 
 ## Check out the Code
 
