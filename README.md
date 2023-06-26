@@ -10,6 +10,13 @@ University of Calgary
 - [Intro to Pygame: Pygame basics for your first video game!](https://de-fellows.github.io/RexCoding/python/pygame/2023/06/21/Intro-to-Pygame.html)
 - [Pygame with AI: Using language models in a pygame-based video game!](https://de-fellows.github.io/RexCoding/python/pygame/huggingface/transformers/pipelines/natural%20language%20processing/nlp/machine%20learning/ml/artificial%20intelligence/ai/conversational%20models/question-answering%20models/fill-mask/text-generation/2023/06/21/Pygame-with-AI.html)
 
+## Video Game Playthroughs
+
+See what the code does, without the need for installing libraries.
+
+- [simple_pygame.py playthrough](simple_pygame_playthrough.mp4)
+- [ai_game.py playthrough](ai_game_playthrough.mp4)
+
 
 ## Check out the Code
 
