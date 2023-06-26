@@ -12,19 +12,10 @@ University of Calgary
 
 ## Video Game Playthroughs
 
-See what the code does, without the need for installing libraries.
+See what the code does, without the need for installing libraries (may require downloading the mp4 files).
 
-### simple_pygame.py
-
-<video width="700" controls>
-    <source src="simple_pygame_playthrough.mp4" type="video/mp4">
-</video>
-
-### ai_game.py
-
-<video width="700" controls>
-    <source src="ai_game_playthrough.mp4" type="video/mp4">
-</video>
+- [simple_pygame.py playthrough](simple_pygame_playthrough.mp4)
+- [ai_game.py playthrough](ai_game_playthrough.mp4)
 
 ## Check out the Code
 
